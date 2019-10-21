@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset = "UTF-8">
+	<title>
+	Laptop Processors
+	</title>
+		<link href = "style.css" rel = "stylesheet" type = "text/css">
+</head>
+<body>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+	<p class="subttlmargin"><br>Ryzen Series
+			<p class="stuff">
+			Built with cutting-edge tech, a laptop powered by 2nd Gen AMD Ryzen™ Mobile Processors
+		<br>with Radeon™ Vega Graphics streams your favorite shows in crystal-clear 4K and multitasks
+		<br>for hours on a single charge.</p>
+			
+			
+		<p class="subttlmargin"><br>A-Series
+			<p class="stuff">
+			The 7th Generation AMD A-Series APU delivers advanced features designed to boost productivity,
+		<br>enhance multimedia, and improve energy efficiency for a premium PC experience.</p>
+
+		<p class="subttlmargin"><br>Athlon Series
+			<p class="stuff">
+			Enjoy reliability you can count on with a laptop powered by the new AMD 1Athlon™ Mobile Processor
+		<br>with Radeon™ Vega Graphics. AMD’s responsive performance and cutting-edge graphics allow you to
+		<br>finish work and school projects with ease, wherever you are.</p>
+<script>
+	//Get the button
+	var mybutton = document.getElementById("myBtn");
+
+	// When the user scrolls down 20px from the top of the document, show the button
+	window.onscroll = function() {scrollFunction()};
+
+	function scrollFunction() {
+		if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+			mybutton.style.display = "block";
+		} else {
+			mybutton.style.display = "none";
+		}
+	}
+
+		// When the user clicks on the button, scroll to the top of the document
+	function topFunction() {
+		document.body.scrollTop = 0;
+		document.documentElement.scrollTop = 0;
+	}
+</script>
+		<div id="container">
+				<div id="footer">
+					<p class = "footer"><a href="references.html">References</a></p>
+					<p class = "footer">Posted by: Michael Wang</p>
+					<p class = "footer">Contact information: <a href="michaelwang5891@gmail.com">Michaelwang5891@gmail.com</a></p>
+					<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fspikemw.github.io%2Fhome%2FLaptopProcessors.html" target="_blank"><img width="30" height="20" src="Images/w3c.png" alt="Images/brokenimage.png"></a>
+				</div>
+		</div>
+</body>
+</html>

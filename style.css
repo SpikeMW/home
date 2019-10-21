@@ -1,0 +1,132 @@
+/*Personal Scroll bar*/
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #242323;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom,#e30e38,#fafa07);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom,#d11515,#fce408);
+}
+body
+{
+	background: url("Images/BackgroundOrange.jpg");
+	background-attachment: fixed;
+	background-size: 120% 120%;
+}
+
+/*Title alignment*/
+div.a	
+{
+	text-align: center;
+	font-family: courier new;
+}
+/*Text and Title Styles*/
+p
+{
+  color: black;
+  font-family: courier;
+  font-size: 100%;
+}
+p.footer
+{
+  color: black;
+  font-family: courier;
+  font-size: 75%;
+}
+p.stuff
+{
+	margin-left:80px;
+	margin-left:80px;
+}
+
+p.subttlmargin
+{
+	margin-left: 40px;
+	margin-left: 40px;
+	font-size: 135%;
+	font-weight: bold;
+}
+h2.ex3
+{
+	font-family: courier;
+	text-align: center;
+}
+h2.ex2
+{
+	font-family: courier;
+	text-align: center;
+}
+ul
+{
+	font-family: courier;
+	list-style-type: none;
+	text-align:center;
+}
+/*Links style*/
+a:link
+{
+	color: black;
+	background-color: transparent;
+	text-decoration: none;
+}
+a:visited
+{
+	color: black;
+	background-color: transparent;
+	text-decoration: none;
+}
+a:hover
+{
+	color: #363635;
+	background-color: transparent;
+	text-decoration: underline;
+}
+/*button Css*/
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background: linear-gradient(to top,#e30e38,#fafa07);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background:linear-gradient(to bottom,#d11515,#fce408);
+}
+/*footer*/
+html,
+body {
+   margin:20px;
+   padding:0;
+   height:100%;
+}
+#container {
+   min-height:100%;
+   position:relative;
+}
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:90px;   /* Height of the footer */
+}
